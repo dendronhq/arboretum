@@ -1,8 +1,11 @@
 {
     "folders": [
         {
-            "path": "notes",
-            "name": "arboretum"
+            "path": "dendron-site/vault",
+            "name": "dendron.dendron-site"
+        },
+        {
+            "path": "."
         }
     ],
     "settings": {
@@ -10,13 +13,20 @@
         "files.autoSave": "onFocusChange",
         "pasteImage.path": "${currentFileDir}/assets/images",
         "pasteImage.prefix": "/",
-        "markdown-preview-enhanced.enableWikiLinkSyntax": true,
-        "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
         "editor.snippetSuggestions": "inline",
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggest.showSnippets": true,
         "editor.tabCompletion": "on",
-        "dendron.enableSelfContainedVaultWorkspace": true
+        "dendron.enableSelfContainedVaultWorkspace": true,
+        "files.exclude": {
+            "**/.git": true,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            "**/Thumbs.db": true,
+            ".dendron.*": true
+        }
     },
     "extensions": {
         "recommendations": [

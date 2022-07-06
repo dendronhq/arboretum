@@ -1,20 +1,29 @@
 ---
 id: zvye4hyhmn4gftoxecdw196
-title: Root
+title: Welcome to the Arboretum
 desc: ''
-updated: 1653265520172
+updated: 1657070742558
 created: 1653265520172
 ---
-# Welcome to Dendron
 
-This is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top.
+The arboretum contains sample schemas, templates, and traits for Dendron 
 
-## Lookup
+## Built-in Note Traits
 
-This section contains useful links to related resources.
+### Meeting Notes
+- [[Example|meet.2022.07.05]]
 
-- [Getting Started Guide](https://link.dendron.so/6b25)
-- [Discord](https://link.dendron.so/6b23)
-- [Home Page](https://wiki.dendron.so/)
-- [Github](https://link.dendron.so/6b24)
-- [Developer Docs](https://docs.dendron.so/)
+- To create a new meeting note, use `>Dendron: Create Meeting Note`
+- For more information, see 
+
+### Daily Journals
+
+#todo
+
+### CUstom Trait
+
+<!-- ## How to use 
+
+## How to contribute
+
+Do you have a budding workflow that you would like to share? We welcome all contributions. See the [contributing guide](#todo) to get started! -->

@@ -5,3 +5,5 @@ seeds
 .next
 pods/service-connections
 dependencies/github.com/dendronhq/arboretum
+vault
+dendron-site

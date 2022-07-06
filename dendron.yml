@@ -20,8 +20,13 @@ commands:
     insertNoteIndex:
         enableMarker: false
     copyNoteLink: {}
+    templateHierarchy: template
 workspace:
     vaults:
+        -
+            fsPath: vault
+            name: dendron.dendron-site
+            workspace: dendron-site
         -
             fsPath: .
             selfContained: true
@@ -55,8 +60,12 @@ workspace:
             L: low
         todoIntegration: false
         createTaskSelectionType: selection2link
+        taskCompleteStatus:
+            - done
+            - x
     graph:
         zoomSpeed: 1
+        createStub: false
     enableAutoCreateOnDefinition: false
     enableXVaultWikiLink: false
     enableRemoteVaultInit: true
@@ -68,6 +77,12 @@ workspace:
     maxPreviewsCached: 10
     maxNoteLength: 204800
     enableFullHierarchyNoteTitle: false
+    enableHandlebarTemplates: true
+    workspaces:
+        dendron-site:
+            remote:
+                type: git
+                url: https://github.com/dendronhq/dendron-site.git
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -106,3 +121,5 @@ publishing:
         payload:
             - arboretum
             - arboretum
+            - dendron.dendron-site
+    enableTaskNotes: true
