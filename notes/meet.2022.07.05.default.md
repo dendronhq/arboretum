@@ -1,8 +1,8 @@
 ---
 id: za02no2ncurb75v9tc7oc7z
-title: 'Meeting'
+title: Regular Meeting Note
 desc: ''
-updated: 1657070624665
+updated: 1657074893595
 created: 1657070371290
 traitIds:
   - meetingNote
