@@ -27,14 +27,6 @@
  * appear in a lookup control to allow the user to further edit the note name
  * before confirming.
  */
- function getDate() {
-  const today = new Date();
-  const dd = String(today.getDate()).padStart(2, '0');
-  const mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-  const yyyy = today.getFullYear();
-  const fullDateWithDots = `${yyyy}.${mm}.${dd}`
-  return fullDateWithDots
-}
 
 module.exports = {
   OnWillCreate: {
