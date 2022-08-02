@@ -71,6 +71,7 @@ workspace:
     enableRemoteVaultInit: true
     enableUserTags: true
     enableHashTags: true
+    enableSmartRefs: true
     workspaceVaultSyncMode: noCommit
     enableAutoFoldFrontmatter: false
     enableEditorDecorations: true
