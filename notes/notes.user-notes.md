@@ -2,7 +2,7 @@
 id: uus4qjl2mm41kmeued5keou
 title: User Notes
 desc: ''
-updated: 1657075605166
+updated: 1659483529306
 created: 1657075253657
 ---
 
@@ -13,3 +13,5 @@ created: 1657075253657
 
 ## Examples
 - [[Regular User Note|user.jonny-seed]] (this note can also be represented with `@` as @jonny-seed)
+
+## Related

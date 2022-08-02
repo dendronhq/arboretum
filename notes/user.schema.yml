@@ -1,0 +1,8 @@
+version: 1
+imports: []
+schemas:
+  - id: user
+    children: []
+    title: user
+    namespace: true
+    parent: root
