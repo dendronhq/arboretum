@@ -2,7 +2,7 @@
 id: 23ulirxpybd19oza5yzzfiw
 title: Managing Contacts
 desc: How to use Dendron to keep track of your contacts
-updated: 1659484171186
+updated: 1659485508638
 created: 1659483615000
 ---
 
@@ -13,11 +13,29 @@ This workflow covers:
 - keeping track of messages
 
 ## Files
-- [[notes/user.schema.yml]]: user schema file
-- [[template.user]]: template used for given user
+- schema: user schema [^1]
+- traits: `msg` trait[^3]
+- templates
+	- [[template.user]]: template used for users
+	- [[template.msg]]: template used for messages
 
 ## Getting Started
 
-1. To create a new user, open lookup and create a new person under the `user` hierarchy (eg. `user.john`)
+### Create a new user
 
-When encountering a new person, add them to the `[[user]]` hierarchy
+To create a new user, open lookup and create a new person under the `user` hierarchy (eg. `user.john`)
+
+<div style="position: relative; padding-bottom: 64.5933014354067%; height: 0;"><iframe src="https://www.loom.com/embed/2b4532c852154b49b246cd887c3ec3f2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+> NOTE: notice that this note is created with frontmatter - this is because of the user schema [^1] file which automatically applies thte user template[^2]  YOu can customize this template based on your specific needs
+
+### Add a new message
+
+To record (or author) a message with the user, use the message note trait[^3] to createa new message
+
+<div style="position: relative; padding-bottom: 64.5933014354067%; height: 0;"><iframe src="https://www.loom.com/embed/05c10f2d3cd34a68a50ea4c8c9206373" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+
+[^1]: [[notes/user.schema.yml]]: user schema file
+[^2]: [[template.user]]: template used for given user
+[^3]: [[noteTraits/msg.js]]: custom message note trait

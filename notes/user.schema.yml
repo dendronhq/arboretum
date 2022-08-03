@@ -6,3 +6,4 @@ schemas:
     title: user
     namespace: true
     parent: root
+    template: template.user
